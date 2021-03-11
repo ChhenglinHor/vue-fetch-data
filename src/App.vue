@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <img alt="star war logo" src="./assets/star-wars.jpg" />
+  <DataDisplay />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import DataDisplay from "./components/StarWars/DataDisplay";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    DataDisplay
   }
 };
 </script>
@@ -22,5 +22,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+img {
+  width: 200px;
+  height: 100px;
 }
 </style>
